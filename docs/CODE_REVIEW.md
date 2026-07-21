@@ -127,7 +127,7 @@ CODEOWNERS auto-requests the owning reviewer when a risk path changes; with bran
 | `iqiglobal-site` | `app/Http/Integrations/**` (ERP/Paynet/Meta) · auth & middleware · `database/migrations/**` · `config/**` · deploy workflows |
 | `feed-engine` / `dagster-pipelines` | `@repository` factory files (a `raise` there crashes prod) · any DDL / migration / AUTO_INCREMENT-touching code |
 
-Per-repo CODEOWNERS files are seeded from [`templates/codeowners/`](../templates/codeowners/) in `juwai/standards`.
+Per-repo CODEOWNERS files are seeded from the `templates/codeowners/` directory of `juwai/standards` (maintainer setup step — the templates are not synced here), then owned by each repo.
 
 ## CI gates & flaky tests
 
